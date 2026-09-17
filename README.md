@@ -1,6 +1,9 @@
-# BF Menuiserie — Saint-Raphaël
+# BF Menuiseries — Saint-Raphaël
 
-Site vitrine **one-page en parallax** pour BF Menuiserie (menuisier à Saint-Raphaël, Var).
+Site vitrine **one-page en parallax** pour **BF MENUISERIES** (SARL), menuisier à Saint-Raphaël (Var).
+
+> 61 avenue Ronsard, 83700 Saint-Raphaël · SIREN 529 370 736 · SIRET 529 370 736 00017
+> APE 4332A — travaux de menuiserie bois et PVC · créée en 2011 · certifiée Qualibat RGE
 HTML / CSS / JavaScript pur : aucun framework, aucune étape de build, aucune dépendance payante.
 
 ## Aperçu local
@@ -24,7 +27,9 @@ assets/img/*.svg      visuels de remplacement, à échanger contre vos photos
 
 | Quoi | Où |
 |---|---|
-| Téléphone, e-mail, adresse, SIRET | `index.html` — section `#contact`, footer, bloc JSON-LD |
+| **Téléphone** (seule donnée manquante, marquée « à compléter ») | `index.html` — `#contact` + `telephone` du JSON-LD |
+| E-mail de contact | `index.html` — `#contact` + JSON-LD (`contact@bf-menuiserie.fr` par défaut) |
+| Horaires réels | `#contact` + `openingHours` du JSON-LD |
 | Formulaire de contact | `index.html` — `action="https://formspree.io/f/VOTRE_ID"` (Formspree, 50 messages/mois gratuits) |
 | Photos des chantiers | remplacer `assets/img/projet-1..4.svg` par vos `.jpg`, puis ajuster les 4 règles `.shot__img--N` dans `css/style.css` |
 | Fond du hero | `.hero__layer--wood` / `--hill` dans `css/style.css` |
@@ -50,6 +55,14 @@ dossier à publier = la racine. HTTPS et domaine personnalisé inclus.
 - **Analytics sans cookie** : Umami Cloud (offre gratuite) ou GoatCounter.
 - **Référencement local** : créez une fiche **Google Business Profile** « BF Menuiserie, Saint-Raphaël » —
   c'est le levier n°1 pour un artisan, devant le site lui-même.
+
+## Ce qui est réel, ce qui ne l'est pas
+
+Les mentions légales, l'adresse, l'année de création et la certification RGE proviennent des sources
+publiques (Annuaire des entreprises, Pappers). **Le téléphone et l'e-mail sont des valeurs à compléter.**
+La galerie utilise des visuels de démonstration, et le bloc « Nos engagements » remplace des témoignages :
+publier de faux avis clients est interdit (pratique commerciale trompeuse, art. L121-2 du Code de la
+consommation) et se repère vite. Dès que vous aurez des avis Google, recopiez-les tels quels.
 
 ## Accessibilité & performance
 
