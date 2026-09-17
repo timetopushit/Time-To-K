@@ -19,7 +19,11 @@ python3 -m http.server 8000
 index.html            page unique (hero, savoir-faire, réalisations, méthode, avis, contact)
 css/style.css         design system (couleurs, typo, composants, responsive)
 js/main.js            parallax, apparitions au scroll, compteurs, menu mobile
-assets/img/*.svg      visuels de remplacement, à échanger contre vos photos
+assets/img/logo-bf.svg        logo officiel vectorisé (fond clair)
+assets/img/logo-bf-light.svg  variante claire (en-tête et pied de page foncés)
+assets/img/favicon.svg        monogramme BF pour l'onglet du navigateur
+assets/img/og.png             image d'aperçu 1200x540 pour les partages
+assets/img/projet-*.svg       visuels de démonstration, à échanger contre vos photos
 .github/workflows/    déploiement automatique sur GitHub Pages
 ```
 
@@ -55,6 +59,14 @@ dossier à publier = la racine. HTTPS et domaine personnalisé inclus.
 - **Analytics sans cookie** : Umami Cloud (offre gratuite) ou GoatCounter.
 - **Référencement local** : créez une fiche **Google Business Profile** « BF Menuiserie, Saint-Raphaël » —
   c'est le levier n°1 pour un artisan, devant le site lui-même.
+
+## Logo
+
+Le logo a été **revectorisé en SVG** d'après votre fichier : il reste net à toutes les tailles
+(2 Ko au lieu d'un PNG), et les couleurs de la charte en découlent —
+brun `#6b4230` (le B) et gris aluminium `#b9bdc4` (le F), définis dans `:root`.
+Si vous disposez du fichier vectoriel d'origine (AI, EPS ou SVG), remplacez simplement
+`logo-bf.svg` et régénérez la variante claire en changeant les `#111` en `#f6f1e9`.
 
 ## Ce qui est réel, ce qui ne l'est pas
 

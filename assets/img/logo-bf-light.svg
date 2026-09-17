@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="BF Menuiseries">
+  <title>BF Menuiseries</title>
+  <defs>
+    <path id="arc" d="M 82 272 A 150 150 0 0 0 318 272"/>
+  </defs>
+  <!-- Anneau ouvert en bas -->
+  <path d="M 75.5 287 A 158 158 0 1 1 324.5 287" fill="none" stroke="#f6f1e9" stroke-width="13"/>
+  <!-- Lettre B (bois) -->
+  <path fill="#6b4230" stroke="#f6f1e9" stroke-width="11" stroke-linejoin="round"
+        d="M74 95 H176 C212 95 236 114 236 138 C236 156 226 169 209 175 C228 182 242 197 242 216 C242 242 217 262 178 262 H74 Z"/>
+  <rect x="98" y="122" width="96" height="19" rx="9" fill="#1b1815" stroke="#f6f1e9" stroke-width="9"/>
+  <rect x="98" y="204" width="96" height="19" rx="9" fill="#1b1815" stroke="#f6f1e9" stroke-width="9"/>
+  <!-- Lettre F (aluminium) -->
+  <path fill="#b9bdc4" stroke="#f6f1e9" stroke-width="11" stroke-linejoin="round"
+        d="M222 140 H336 V182 H272 V199 H326 V233 H272 V278 H222 Z"/>
+  <!-- Texte courbe -->
+  <text font-family="Inter, Helvetica, Arial, sans-serif" font-size="37" font-weight="700" fill="#f6f1e9">
+    <textPath href="#arc" startOffset="50%" text-anchor="middle">Menuiseries</textPath>
+  </text>
+</svg>

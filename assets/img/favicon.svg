@@ -1,4 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<rect width="64" height="64" rx="14" fill="#8a5a34"/>
-<text x="32" y="42" text-anchor="middle" font-family="Georgia, serif" font-size="28" font-weight="600" fill="#f6f1e9">BF</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" rx="72" fill="#f6f1e9"/>
+  <path fill="#6b4230" stroke="#111" stroke-width="16" stroke-linejoin="round"
+        d="M62 78 H186 C226 78 252 103 252 133 C252 154 240 170 220 179 C243 187 258 206 258 230 C258 264 228 292 184 292 H62 Z"/>
+  <rect x="88" y="113" width="126" height="26" rx="13" fill="#f6f1e9" stroke="#111" stroke-width="13"/>
+  <rect x="88" y="219" width="126" height="26" rx="13" fill="#f6f1e9" stroke="#111" stroke-width="13"/>
+  <path fill="#b9bdc4" stroke="#111" stroke-width="16" stroke-linejoin="round"
+        d="M232 136 H366 V188 H290 V210 H352 V253 H290 V322 H232 Z"/>
 </svg>
