@@ -2,7 +2,8 @@
 
 Site vitrine **one-page en parallax** pour **BF MENUISERIES** (SARL), menuisier à Saint-Raphaël (Var).
 
-> 61 avenue Ronsard, 83700 Saint-Raphaël · SIREN 529 370 736 · SIRET 529 370 736 00017
+> 61 avenue Ronsard — Les Mas du Haut Peyron A3, 83700 Saint-Raphaël · 06 61 31 36 88
+> SARL au RCS de Fréjus · SIREN 529 370 736 · SIRET 529 370 736 00017
 > APE 4332A — travaux de menuiserie bois et PVC · créée en 2011 · certifiée Qualibat RGE
 HTML / CSS / JavaScript pur : aucun framework, aucune étape de build, aucune dépendance payante.
 
@@ -31,7 +32,7 @@ assets/img/projet-*.svg       visuels de démonstration, à échanger contre vos
 
 | Quoi | Où |
 |---|---|
-| **Téléphone** (seule donnée manquante, marquée « à compléter ») | `index.html` — `#contact` + `telephone` du JSON-LD |
+| **Vérifier le téléphone** 06 61 31 36 88 (issu des annuaires, non confirmé) | `index.html` — 3 occurrences `tel:+33661313688` |
 | E-mail de contact | `index.html` — `#contact` + JSON-LD (`contact@bf-menuiserie.fr` par défaut) |
 | Horaires réels | `#contact` + `openingHours` du JSON-LD |
 | Formulaire de contact | `index.html` — `action="https://formspree.io/f/VOTRE_ID"` (Formspree, 50 messages/mois gratuits) |
