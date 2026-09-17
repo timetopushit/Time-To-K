@@ -137,6 +137,22 @@ em{font-style:italic;color:var(--bois-clair)}
 .quotes p{margin:0 0 16px;font-family:var(--serif);font-size:1.05rem;line-height:1.55}
 .quotes cite{font-style:normal;font-size:.85rem;color:var(--bois);letter-spacing:.06em}
 
+/* ---------- Avis Google ---------- */
+.avis-note{display:flex;align-items:center;gap:12px;margin-bottom:28px;flex-wrap:wrap}
+.avis-note b{font:600 1.7rem var(--serif)}
+.avis-note .etoiles{color:#e8a33d;font-size:1.25rem}
+.avis-note span{color:var(--texte-doux);font-size:.92rem}
+.etoiles{color:#e8a33d;letter-spacing:2px;font-size:1.05rem}
+.etoiles--off{color:rgba(0,0,0,.18)}
+.quotes .etoiles{display:block;margin-bottom:10px}
+.avis-lien{margin-top:24px}
+.avis-lien a{color:var(--bois);font-weight:500}
+.avis-cta{margin-top:32px}
+.btn--outline{background:transparent;color:var(--bois);border:1px solid var(--bois);box-shadow:none}
+.btn--outline:hover{background:var(--bois);color:#fff}
+.contact__val{text-align:right;font-weight:500}
+.contact__val i{font-style:normal;font-weight:400;color:var(--texte-doux);font-size:.85rem}
+
 /* ---------- Contact ---------- */
 .contact{background:var(--sable-2)}
 .contact__grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}

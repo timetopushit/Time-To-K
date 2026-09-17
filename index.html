@@ -44,7 +44,7 @@
   },
   "geo": { "@type": "GeoCoordinates", "latitude": 43.4253, "longitude": 6.7684 },
   "areaServed": ["Saint-Raphaël", "Fréjus", "Puget-sur-Argens", "Roquebrune-sur-Argens", "Sainte-Maxime", "Agay"],
-  "openingHours": "Mo-Fr 08:00-18:00",
+  "openingHours": "Mo-Fr 08:00-17:30",
   "priceRange": "€€",
   "identifier": [
     { "@type": "PropertyValue", "name": "SIREN", "value": "529370736" },
@@ -195,14 +195,21 @@
   <section class="section" id="avis">
     <div class="wrap">
       <header class="section__head reveal">
-        <p class="eyebrow">Nos engagements</p>
-        <h2>Ce sur quoi vous pouvez compter</h2>
+        <p class="eyebrow" id="avis-eyebrow">Nos engagements</p>
+        <h2 id="avis-titre">Ce sur quoi vous pouvez compter</h2>
       </header>
+      <div id="avis-google">
       <div class="quotes">
         <blockquote class="reveal"><p>Certifiés <b>Qualibat RGE</b> : vos travaux d’isolation ouvrent droit aux aides publiques, et nous montons le dossier avec vous.</p><cite>Qualification RGE</cite></blockquote>
         <blockquote class="reveal"><p>Une <b>entreprise locale</b> depuis 2011, atelier avenue Ronsard. Le SAV, c’est la même équipe que la pose.</p><cite>Saint-Raphaël, Var</cite></blockquote>
         <blockquote class="reveal"><p><b>Garantie décennale</b> et devis à prix ferme. Pas de supplément découvert en cours de chantier.</p><cite>Assurance &amp; devis</cite></blockquote>
       </div>
+      </div>
+      <p class="avis-cta reveal">
+        <a class="btn btn--sm btn--outline" id="lien-avis" href="https://search.google.com/local/writereview?placeid=VOTRE_PLACE_ID" target="_blank" rel="noopener">
+          Vous êtes client ? Laissez-nous un avis Google
+        </a>
+      </p>
     </div>
   </section>
 
@@ -217,7 +224,7 @@
           <li><span>Téléphone</span><a href="tel:+33661313688">06 61 31 36 88</a></li>
           <li><span>E-mail</span><a href="mailto:contact@bf-menuiserie.fr">contact@bf-menuiserie.fr</a></li>
           <li><span>Atelier</span><a href="https://www.google.com/maps/search/?api=1&amp;query=61+avenue+Ronsard+Les+Mas+du+Haut+Peyron+83700+Saint-Rapha%C3%ABl" target="_blank" rel="noopener">61 av. Ronsard — Les Mas du Haut Peyron A3<br>83700 Saint-Raphaël</a></li>
-          <li><span>Horaires</span><a href="#contact">Lun — Ven · 8 h – 18 h</a></li>
+          <li><span>Horaires</span><span class="contact__val">Lun — Ven · 8 h – 17 h 30<br><i>Samedi et dimanche fermé</i></span></li>
         </ul>
       </div>
       <!-- Formulaire : Formspree (gratuit). Remplacez VOTRE_ID par votre identifiant. -->
@@ -254,6 +261,17 @@
 
 <a class="call-fab" href="tel:+33661313688" aria-label="Appeler BF Menuiseries">📞 Appeler — 06 61 31 36 88</a>
 
+<script>
+  /* Avis Google — laissez « endpoint » vide tant que ce n'est pas branché.
+     Voir README.md, section « Brancher les avis Google ». */
+  window.BF_AVIS = {
+    endpoint: '',            // ex. 'https://avis-bf.votre-compte.workers.dev'
+    placeId : '',            // identifiant Google de la fiche
+    max     : 3,             // nombre d'avis affichés
+    noteMini: 4              // n'affiche pas les avis en dessous de cette note
+  };
+</script>
 <script src="js/main.js" defer></script>
+<script src="js/avis-google.js" defer></script>
 </body>
 </html>
